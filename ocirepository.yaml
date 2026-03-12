@@ -1,0 +1,11 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: OCIRepository
+metadata:
+  name: spegel
+  namespace: flux-system
+spec:
+  interval: 30m
+  url: oci://ghcr.io/spegel-org/helm-charts/spegel
+  ref:
+    tag: "v0.0.20"
+    digest: sha256:c2e3566c3d43b123303e598b13e5804355abdbdfff508c3345f1b09dd667c8da
