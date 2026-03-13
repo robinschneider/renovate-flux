@@ -7,5 +7,5 @@ spec:
   interval: 30m
   url: oci://ghcr.io/spegel-org/helm-charts/spegel
   ref:
-    tag: "v0.0.20"
-    digest: sha256:c2e3566c3d43b123303e598b13e5804355abdbdfff508c3345f1b09dd667c8da
+    tag: "0.6.0"
+    digest: sha256:272f4ebc09099d46f493ed32fcbfaaf21c47a447939c976bcae4be1d69101d01
