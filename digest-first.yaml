@@ -7,5 +7,5 @@ spec:
   interval: 12h
   url: oci://ghcr.io/visualon/bitnamicharts/postgresql
   ref:
-    digest: sha256:c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4
-    tag: 16.7.27
+    digest: sha256:fac73c125728fa182d47a0b3fb5db3ee7ac35372533585dd8a4355b4797b2a16
+    tag: 18.1.1
