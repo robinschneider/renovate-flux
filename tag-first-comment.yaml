@@ -7,6 +7,6 @@ spec:
   interval: 12h
   url: oci://ghcr.io/visualon/bitnamicharts/redis
   ref:
-    tag: 23.0.10
+    tag: 23.2.1
     # digest is for pinning, tag is used by renovate
-    digest: sha256:816fff6f5e9e22f34ec98768e95354ee85a825e08bfb75995fcacfbe7224ca83
+    digest: sha256:82bf7d6d2b36cfcbff26dd85bfeaad37598ccfd8ef8944d3baaa64bc1d30329a
