@@ -1,0 +1,12 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: OCIRepository
+metadata:
+  name: valkey
+spec:
+  interval: 12h
+  url: oci://ghcr.io/visualon/bitnamicharts/valkey
+  ref:
+    digest: sha256:761c3189c482d0f1f0ad3735ca05c4c398cae201d2169f6645280c7b7b2ce6fc
+    # tag is for renovate and will be ignored by flux
+    tag: 3.0.30
