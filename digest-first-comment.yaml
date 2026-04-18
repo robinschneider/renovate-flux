@@ -7,6 +7,6 @@ spec:
   interval: 12h
   url: oci://ghcr.io/visualon/bitnamicharts/valkey
   ref:
-    digest: sha256:761c3189c482d0f1f0ad3735ca05c4c398cae201d2169f6645280c7b7b2ce6fc
+    digest: sha256:66d3dbe075366f2b7640bb492bc3bcf50ec0a4f2564759bfe13c5b4221155ff3
     # tag is for renovate and will be ignored by flux
-    tag: 3.0.30
+    tag: 3.0.31
