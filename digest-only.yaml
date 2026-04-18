@@ -2,9 +2,9 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: OCIRepository
 metadata:
-  name: ingress-nginx
+  name: mariadb
 spec:
   interval: 12h
-  url: oci://ghcr.io/visualon/bitnamicharts/ingress-nginx
+  url: oci://ghcr.io/visualon/bitnamicharts/mariadb
   ref:
-    digest: sha256:a3f1b2c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2
+    digest: sha256:4f069f2afb576b83d4d558460348d1777725c40dab4f4e471e0c6b465689de63
